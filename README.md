@@ -1,4 +1,12 @@
 # competition_kaggle_titanic
-# This project is a machine learning solution for the Titanic - Machine Learning 
-# from Disaster competition on Kaggle. The goal is to predict which passengers survived
-# the Titanic shipwreck based on features such as age, sex, and passenger class.
+
+I worked on this project to predict Titanic survivors. It was a great way to learn how to use machine learning for classification.
+
+### How I did it:
+* **Cleaning**: I filled the missing values for Age and Fare using the median.
+* **Features**: I used Pclass, Sex, Age, SibSp, Parch, Fare, and Embarked.
+* **Encoding**: I changed 'Sex' into 0 and 1 and used dummies for 'Embarked'.
+* **Model**: I used a Random Forest Classifier with 100 estimators.
+
+### Results:
+My final score on Kaggle is **0.78468**.
